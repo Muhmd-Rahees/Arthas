@@ -1,0 +1,76 @@
+.main_form{
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 90px;
+}
+.title{
+    font-size: 24px;
+    text-align: center;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+}
+.sub-head{
+    color: rgb(82, 80, 80);
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.allContent{
+    margin: auto;
+}
+.input_data{
+    display: flex;
+    align-items: center;
+    width: 280px;
+    height: 26px;
+    color: rgb(82, 80, 80);
+    background: transparent;
+    border: 1px solid lightgrey;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+}
+.remember_me input[type="checkbox"] {
+    width: 10px;
+    height: 10px;
+    margin-right: 2px;
+}
+.rememmber_me_label{
+    text-size-adjust: 12px;
+    font-size: 12px;
+    color: rgb(82, 80, 80);
+}
+.forgot_password_a{
+    font-size: 12px;
+}
+.submit_button {
+    background: #415deb;
+    color: #fff;
+    border-radius: 4px;
+    width: 6rem;
+    height: 2rem;
+    padding: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    font-size: 12px;
+}
+.bottom_content{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+.new_user{
+    font-size: 12px;
+}
+.account{
+    font-size: 12px;
+}

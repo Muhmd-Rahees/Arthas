@@ -1,0 +1,77 @@
+.root_div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 5rem;
+    left: 0;
+    /* height: 32px; */
+    margin: 0 auto;
+    z-index: 1000;
+}
+.root_content{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    background: rgb(248, 245, 245);
+    align-items: center;
+    border-radius: 2px;
+}
+.header_left{
+    font-size: 22px;
+    font-weight: bolder;
+    color: blue;
+    margin-left: -4rem;
+}
+.header_left__section{
+    color: black;
+}
+.ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 14px;
+}
+.header_right {
+    margin-right: 12rem;
+}
+.list {
+    position: relative;
+
+}
+.list .drop-down-arrow svg{
+    margin-top: 2px;
+}
+.list:hover {
+    cursor: pointer;
+    color: blue;
+}
+.list::after {
+    content: "";
+    position: absolute;
+    left: -2px;
+    bottom: -14px;
+    width: 3rem;
+    height: 3px;
+    background-color: blue;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+.list:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+/* .list:hover::before {
+    content: "";
+    position: absolute;
+    right: 1;
+    top: 50%;
+    transform: translateY(-50%) scaleY(0);
+    border-left: 50px solid transparent;
+    border-right: 5px solid transparent;
+} */
+/* .list:hover::before,
+.list.active::before {
+    opacity: 1;
+    transform: translateY(-50%) scaleY(1);
+} */
